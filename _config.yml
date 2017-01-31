@@ -4,11 +4,11 @@
 
 # Site
 title: KnightlyCode.com
-subtitle:
+subtitle: Tales of courage and of great software...
 description:
 author: Benjamin Brandt
-language:
-timezone:
+language: en
+timezone: America/Chicago
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -44,7 +44,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: Dev
 category_map:
 tag_map:
 
@@ -63,9 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+disqus_shortname: knightlycode
