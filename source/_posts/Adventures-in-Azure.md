@@ -1,6 +1,12 @@
+---
+title: 'Adventures in Azure: Adding in Azure Functions'
+tags: Azure Cloud
+date: 2017-03-30 06:40:12
+---
+
 ## Adventures in Azure
 
-The software development work I've done thus far that I get paid for has all been deployed on-premise or packaged up and shipped to customers that run on-prem, so any fun cloud experimentation has to be on my own time.  This week I decided to take a look at building simple API's in Azure. More specifically, what would be involved in building an API that I could securly make available on the internet and bill for usage.  
+The software development work I've done thus far that I get paid for has all been deployed on-premise or packaged up and shipped to customers that run on-prem, so any fun cloud experimentation has to be on my own time.  This week I decided to take a look at building simple API's in Azure. More specifically, what would be involved in building an API that I could securly make available on the internet and bill for usage.
 
 The first thing I looked into was Azure Functions.  If you haven't heard of it Azure Functions is a simple way to deploy code to Azure and have it run and scaled without having to think about the hardward it will run on or care about VM provisioning.  The code can be triggered by messages in an incoming queue, from a GitHub Webhook, or, what I am interested in currently, by an HTTP request.  Code can be written in C#, F#, Node.js, Python, PHP, Powershell, batch, or bash.  Related buzzwords are Function as a Service (FaaS) and serverless.
 
