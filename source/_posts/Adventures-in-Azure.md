@@ -31,6 +31,9 @@ For this example I would expect a JSON response body like so:
 
 Instead of using the online code editor for Azure Functions, I opted to use the [VS2015 preview tooling](https://blogs.msdn.microsoft.com/webdev/2016/12/01/visual-studio-tools-for-azure-functions/) and setup my code with [continuous deployment from GitHub](https://docs.microsoft.com/en-us/azure/azure-functions/functions-continuous-deployment).  This experience was much more seamless than I expected.
 
+The implementation is a single function:
+{% gist 117a6512f4f241280e3bb9007bf94b10 [run.csx] %}
+
 The only real roadblock I hit that stumped me for a few minutes is that the preview tooling creates a directory structure that is not compatible with deployment to Azure Functions.  Fortunately, [the documentation](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference#folder-structure) nicely states that all Azure Function code must be in a sub-folder directly beneath the root folder.
 
 Developing the code locally in VS2015 gives you the ability to set breakpoints and debug code when necessary.
