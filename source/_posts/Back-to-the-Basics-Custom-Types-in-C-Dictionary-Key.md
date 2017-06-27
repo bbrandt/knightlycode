@@ -40,7 +40,7 @@ This is representative of how it is used:
 
 I know your 'spidey sense' is already tingling, but I didn't catch my rookie mistake until I re-ran the profiler, realized it was going way too slow, and noticed a lot of reflection time being taken.  I had a pretty good idea of what I'd forgotten, but did some Googling anyway, because that's what we do.  
 
-For shame, I had forgotten my `Equals()` and `GetHashCode()`.  Turns out, after all these years we still need them.  When defining a struct containing reference types as I have here (good/bad idea? I'm open to input), the default [Equals()](https://msdn.microsoft.com/en-us/library/2dts52z7(v=vs.110).aspx) comparison uses reflection to compare the fields of the struct which can be quite costly.  
+For shame, I had forgotten my `Equals()` and `GetHashCode()`.  Turns out, after all these years we still need them.  When defining a struct containing reference types as I have here (good/bad idea? I'm open to input), the default [Equals()](https://msdn.microsoft.com/en-us/library/2dts52z7.aspx) comparison uses reflection to compare the fields of the struct which can be quite costly.  
 
 Instead of adding the methods to the class I opted to let ReSharper generate an `IEqualityComparer<CatTrackingId>` for me.  Feels good.
 
