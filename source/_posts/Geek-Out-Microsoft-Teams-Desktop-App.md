@@ -1,7 +1,9 @@
 ---
 title: 'Geek Out: Microsoft Teams Desktop App'
 tags: geekout web electron desktop
+date: 2017-06-27 01:24:23
 ---
+
 
 For anyone else curious about how Microsoft is now developing desktop applications, here's some info on Microsoft Teams:
 The Microsoft Teams app is built with Angular, TypeScript, & HTML. This web-based application is then wrapped with the Electron shell just like VSCode.  The desktop client shares the same code as the Microsoft Teams web client.
