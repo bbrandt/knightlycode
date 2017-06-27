@@ -1,6 +1,9 @@
 ---
 title: 'Adventures in Azure: Adding in Azure Functions'
-tags: azure cloud
+tags:
+  - azure
+  - continuous deployment
+  - cloud
 date: 2017-03-30 06:40:12
 ---
 

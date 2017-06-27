@@ -1,6 +1,10 @@
 ---
 title: 'Back to the Basics: Custom Types in C# Dictionary Key'
-tags: csharp dotnet dictionary perf
+tags: 
+  - csharp 
+  - dotnet 
+  - dictionary 
+  - perf
 date: 2017-06-21 18:06:43
 ---
 

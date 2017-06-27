@@ -1,6 +1,10 @@
 ---
 title: 'Geek Out: Microsoft Teams Desktop App'
-tags: geekout web electron desktop
+tags: 
+  - geekout 
+  - web 
+  - electron 
+  - desktop
 date: 2017-06-27 01:24:23
 ---
 
