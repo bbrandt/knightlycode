@@ -15,7 +15,7 @@ I recently bumped into a performance problem while reworking some C# code that I
 
 Below is the general idea of the struct used for the Dictionary key.  The domain has been changed to cats to protect the innocent. If you think it strange that I'm using a couple of strings here, you're probably right, but I haven't finished [profiling](https://www.jetbrains.com/profiler/) or refactoring yet.
 
-![Coding cat](http://68.media.tumblr.com/9d435c4983e87521328423a4d0941d9e/tumblr_inline_nh05dqymmX1ro2d0d.jpg)
+![Coding cat](https://68.media.tumblr.com/9d435c4983e87521328423a4d0941d9e/tumblr_inline_nh05dqymmX1ro2d0d.jpg)
 
 ```
 public struct CatTrackingId
