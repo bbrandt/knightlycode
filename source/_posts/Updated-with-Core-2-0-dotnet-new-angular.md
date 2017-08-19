@@ -11,7 +11,7 @@ date: 2017-08-16 23:26:12
 
 Back in February 2017, Jeffrey T. Fritz blogged about [Building Single Page Applications on ASP.NET Core with JavaScriptServices](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/), introducing how to get started with a Angular + ASP.NET Core application.  With the release of ASP.NET Core 2.0 there are some changes to this workflow.
 
-For one, the `Microsoft.AspNetCore.SpaTemplates` is shipped with ASP.NET Core 2.0 [#948](https://github.com/aspnet/JavaScriptServices/issues/948) and does not need to be installed separately.  Once you've installed ASP.NET Core 2.0, you can simply get started with your new project like so:
+For one, the `Microsoft.AspNetCore.SpaTemplates` is shipped with ASP.NET Core 2.0 [#948](https://github.com/aspnet/JavaScriptServices/issues/948) and does not need to be installed separately.  Once you've installed the [.NET Core 2.0 SDK](http://dot.net/core), you can simply get started with your new project like so:
 
 Create a new project:
 ```
