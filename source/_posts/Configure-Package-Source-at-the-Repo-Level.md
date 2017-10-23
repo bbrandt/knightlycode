@@ -1,5 +1,5 @@
 ---
-title: Configure Package Source at the Repo Level
+title: Configure NuGet Package Source at the Repo Level
 date: 2017-10-16 10:28:55
 tags: NuGet VisualStudio CSharp
 ---
