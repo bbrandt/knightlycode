@@ -1,7 +1,10 @@
 ---
 title: Configure NuGet Package Source at the Repo Level
 date: 2017-10-16 10:28:55
-tags: NuGet VisualStudio CSharp
+tags: 
+  - NuGet 
+  - VisualStudio 
+  - CSharp 
 ---
 
 A long time ago in a galaxy far, far away, we used to configure NuGet package sources at the machine level in Visual Studio.  Each time a new PC was dropped on our desk, we would dutifully go through our Visual Studio configuration steps, including setting up a NuGet package source pointing to our ProGet server.  
