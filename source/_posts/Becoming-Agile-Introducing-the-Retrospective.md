@@ -23,11 +23,17 @@ The retrospective can take many forms, but the easiest to get started with is Pl
 
 Emphasis improvements made since the last iteration.  When completing a large increment of work, find creative ways to congratulate the team on a job well done.  While I will not discourage giving recognition to individuals for effort going above and beyond, you will want to avoid causing anyone to feel left out or like they are not a part of the team.  Avoid recognizing 4 out of 5 of the team members for example.
 
+As the organizer of the meeting, I recommend taking notes during the iteration of times the time worked particularly well together to ensure that there are a good number of pluses.
+
 ## Deltas (Δ)
 
 * What could we improve upon?
 
-In the most positive way possible, address any areas where the team could us improvement.  When there is agreement, a checkmark or “plus one” can be added to existing items.  This help to prioritize which deltas deserve action to be taken.
+In the most positive way possible, address any areas where the team could us improvement.  When there is agreement, a “plus one” can be added to existing items.  This help to prioritize which deltas deserve action to be taken.
+
+### A Word of Caution
+
+The retrospective is focused on improving the team as a whole.  Avoid providing corrective feedback to individuals during the retrospective as this could work against the cohesiveness the team is trying to build during the meeting.  Additionally, this type of feedback, as suggested in "Measure What Matters" by John Doerr, is best given as close as possible to the situation being addressed so that important context is not lost.  
 
 ## Action Items
 
